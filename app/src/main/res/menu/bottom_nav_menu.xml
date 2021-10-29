@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_fav"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Wishlist varsity" />
+
+    <item
+        android:id="@+id/navigation_potesh"
+        android:icon="@drawable/ic_monetization_on_black_24dp"
+        android:title="Potential clients varsity" />
+    <item
+        android:id="@+id/navigation_fav1"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Wishlist Soko"
+        />
+
+    <item
+        android:id="@+id/navigation_potesh1"
+        android:icon="@drawable/ic_business_center_black_24dp"
+        android:title="Potential clients Soko"
+        />
+
+
+</group>
+
+</menu>

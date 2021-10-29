@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" />
+    <string name="title_activity_home" />
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="VARSITY_SALE">VARSITY SALE</string>
+    <string name="menu_home">Add items for sale</string>
+    <string name="menu_gallery">View items for sale</string>
+    <string name="SOKO_YA_COMRADES">SOKO YA COMRADES</string>
+    <string name="menu_slideshow">Add items for exchange</string>
+    <string name="menu_tools">View items for exchange</string>
+    <string name="title_activity_navigation">navigation</string>
+    <string name="title_Wishlist" />
+    <string name="title_Potential_client" />
+
+
+    <string name="title_Payment" />
+    <string name="title_HOME" />
+    <string-array name="Spinnertype">
+        <item>Product type</item>
+        <item>Electronics</item>
+        <item>Beauty and Grooming products/services</item>
+        <item>Educational Services</item>
+        <item>Artistic services</item>
+        <item>Footwear</item>
+        <item>Clothes</item>
+        <item>Accessories</item>
+        <item>Food</item>
+        <item>House items</item>
+        <item>others</item>
+    </string-array>
+    <string-array name="Spinnerduration">
+        <item>Advertising period in weeks</item>
+        <item>3 </item>
+        <item>4 </item>
+        <item>8 </item>
+    </string-array>
+    <string-array name="Paymentmethod">
+        <item>PAYMENT METHOD</item>
+        <item>M-PESA</item>
+        <item>Airtel Money</item>
+    </string-array>
+    <string name="title_activity_s_t_a_r_t">START</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_b_e_g_i_n_n_i_n_g">BEGINNING</string>
+    <string name="title_activity_n_a_v_i_g_a_t_e">NAVIGATE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

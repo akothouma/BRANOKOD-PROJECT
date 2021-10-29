@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/completeRegistration">
+
+    <fragment
+        android:id="@+id/additems1"
+        android:name="com.example.newu.branokod3.ui.home.HomeFragment"
+        android:label="Business update"
+        tools:layout="@layout/fragment_sokoadd">
+
+        <action android:id="@+id/action_HomeFragment_to_HomeSecondFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/viewitems"
+        android:name="com.example.newu.branokod3.ui.home.HomeSecondFragment"
+        android:label="Add items for sale"
+        tools:layout="@layout/fragment_business">
+        <action android:id="@+id/action_HomeSecondFragment_to_HomeFragment" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/viewitems1"
+        android:name="com.example.newu.branokod3.ui.gallery.GalleryFragment"
+        android:label="View items for exchange"
+        tools:layout="@layout/fragment_sokoview" />
+
+    <fragment
+        android:id="@+id/additems"
+        android:name="com.example.newu.branokod3.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_varsityadd" />
+    <fragment
+        android:id="@+id/business"
+        android:name="com.example.newu.branokod3.ui.Business.Business"
+        android:label="fragment_business"
+        tools:layout="@layout/fragment_business" />
+    <activity
+        android:id="@+id/wishlistparseVarsity"
+        android:name="com.example.newu.branokod3.wishlistparseVarsity"
+        android:label="activity_wishlistparse_varsity"
+        tools:layout="@layout/activity_wishlistparse_varsity" />
+    <activity
+        android:id="@+id/myItemsVarsity"
+        android:name="com.example.newu.branokod3.MyItemsVarsity"
+        android:label="activity_my_items_varsity"
+        tools:layout="@layout/activity_my_items_varsity" />
+    <activity
+        android:id="@+id/airtelpaymentmode"
+        android:name="com.example.newu.branokod3.airtelpaymentmode"
+        android:label="activity_airtelpaymentmode"
+        tools:layout="@layout/activity_airtelpaymentmode" />
+    <activity
+        android:id="@+id/completeRegistration"
+        android:name="com.example.newu.branokod3.CompleteRegistration"
+        android:label="activity_complete_registration"
+        tools:layout="@layout/activity_complete_registration" />
+</navigation>

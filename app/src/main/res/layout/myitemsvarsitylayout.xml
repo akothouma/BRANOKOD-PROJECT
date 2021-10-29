@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="304dp"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/myitemsvarsityimageView"
+            android:layout_width="197dp"
+            android:layout_height="252dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/clipart46977169" />
+
+        <TextView
+            android:id="@+id/myItemsVarsityduration"
+            android:layout_width="142dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:text="Duration"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/myItemsVarsityPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="140dp"
+            android:text="Price"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/myItemsVarsitytype"
+            android:layout_width="74dp"
+            android:layout_height="39dp"
+            android:text="Type"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="italic|bold" />
+
+        <TextView
+            android:id="@+id/myItemVarsitydesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="80dp"
+            android:text="Description"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:ems="10"
+            android:gravity="start|top"
+           />
+
+        <TextView
+            android:id="@+id/MyItemVarsitycontactexchange"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="200dp"
+            android:text="contact"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

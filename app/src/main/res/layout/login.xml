@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="389dp"
+
+        app:srcCompat="@drawable/branokodfinallogo" />
+
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:background="@color/colorAccent"
+        android:text="Button"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="560dp"
+        android:gravity="center|top"
+        android:text="Forgot password?Click here "
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/emaillogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginStart="20dp"
+        android:hint="Enter email"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp" />
+
+</RelativeLayout>

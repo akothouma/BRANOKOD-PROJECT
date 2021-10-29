@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompleteRegistration">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/branokodfinallogo" />
+
+    <TextView
+        android:id="@+id/profileget"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="560dp"
+        android:gravity="center"
+        android:text="Proceed to profile"
+        android:layout_marginStart="40dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="40dp" />
+
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:hint="Input Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:layout_marginTop="450dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="20dp"
+        android:hint="Year of graduation"
+        android:layout_marginLeft="20dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item android:title="Versity Sale">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/additems"
+                    android:icon="@drawable/ic_add_shopping"
+                    android:title="Add items for sale" />
+                <item
+                    android:id="@+id/viewitems"
+                    android:icon="@drawable/ic_view_list"
+                    android:title="View items for sale" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Soko ya Comrades">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/additems1"
+                    android:icon="@drawable/ic_add_shopping"
+                    android:title="Add items for exchange" />
+                <item
+                    android:id="@+id/viewitems1"
+                    android:icon="@drawable/ic_view_list"
+                    android:title="View items for exchange" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

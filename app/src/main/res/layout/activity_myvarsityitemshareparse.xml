@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myvarsityitemshareparse">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="396dp"
+        android:fitsSystemWindows="false"
+        app:srcCompat="@drawable/blacknwhite" />
+
+    <TextView
+        android:id="@+id/varparseitemviewprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/varparsedesc"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Price"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/varparsedesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:text="Description"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:ems="10"
+        android:gravity="start|top"
+        />
+
+    <ImageButton
+        android:id="@+id/varparsewishview"
+        android:layout_width="76dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/varparseitemviewprice"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_favorite_black_24dp" />
+
+
+</RelativeLayout>

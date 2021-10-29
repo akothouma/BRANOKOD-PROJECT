@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_number": "1038718335381",
+    "firebase_url": "https://branokoduserauthentication.firebaseio.com",
+    "project_id": "branokoduserauthentication",
+    "storage_bucket": "branokoduserauthentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038718335381:android:da670a88f779d8fe",
+        "android_client_info": {
+          "package_name": "com.example.newu.branokod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038718335381-i0q352ikj58k1kh1s2dbuvj0ikrojptb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newu.branokod",
+            "certificate_hash": "b4494201f75414470745cb45be58ffd51b28ba81"
+          }
+        },
+        {
+          "client_id": "1038718335381-dgsv2ia2lfiaqfsb2j3mpu5qj82e2ip4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEUpOuRfG8FXgZBqehRWZ9vg8Cck6Vq4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038718335381-dgsv2ia2lfiaqfsb2j3mpu5qj82e2ip4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038718335381:android:a7e20db56dc9b55e",
+        "android_client_info": {
+          "package_name": "com.example.newu.branokod3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038718335381-1m731l1ng44usr3hds9oaobibsevfv3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newu.branokod3",
+            "certificate_hash": "d3a57766090fd6a4e7e7ad34c776e9fc75722694"
+          }
+        },
+        {
+          "client_id": "1038718335381-54d6aq6andu8n3u9bnqffsuuuegervdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newu.branokod3",
+            "certificate_hash": "3c7627806abd0b29aceddc049401e31c25317b78"
+          }
+        },
+        {
+          "client_id": "1038718335381-avkn01olbuofmokhgehn0pn2b2m1np2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newu.branokod3",
+            "certificate_hash": "9cf3e628b8ca38c05aec4849f3a54ccfecc3d523"
+          }
+        },
+        {
+          "client_id": "1038718335381-s9f7m5b11du8rlhvq2itrkme8b4p72rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newu.branokod3",
+            "certificate_hash": "79cae4d7a63d16698053b331763a5818d47215f4"
+          }
+        },
+        {
+          "client_id": "1038718335381-pb3ic72mmhoj4dan8tm600hl5i0pug50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newu.branokod3",
+            "certificate_hash": "66445fc9b3b9c17baf70445f7aeb453336228723"
+          }
+        },
+        {
+          "client_id": "1038718335381-smg0uot1qd02qp88oh191ahcodqtlu5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.newu.branokod3",
+            "certificate_hash": "c68c12768b7570930b66205e6b4f772fe3afdb99"
+          }
+        },
+        {
+          "client_id": "1038718335381-dgsv2ia2lfiaqfsb2j3mpu5qj82e2ip4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEUpOuRfG8FXgZBqehRWZ9vg8Cck6Vq4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038718335381-dgsv2ia2lfiaqfsb2j3mpu5qj82e2ip4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
